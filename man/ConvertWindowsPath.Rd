@@ -2,10 +2,10 @@
 % Please edit documentation in R/addins.R
 \name{ConvertWindowsPath}
 \alias{ConvertWindowsPath}
-\title{Converts single backslashes from windows path to forward slashes}
+\title{Converts single backslashes to forward slashes (e.g. in Windows paths)}
 \usage{
 ConvertWindowsPath()
 }
 \description{
-Converts single backslashes from windows path to forward slashes
+Converts single backslashes to forward slashes (e.g. in Windows paths)
 }

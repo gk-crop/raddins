@@ -23,7 +23,7 @@ replaceSelectedText <- function(search, replace)
   )
 }
 
-#' Converts single backslashes from windows path to forward slashes
+#' Converts single backslashes to forward slashes (e.g. in Windows paths)
 #'
 #' @export
 ConvertWindowsPath <- function()
