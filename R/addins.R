@@ -1,6 +1,7 @@
 #' raddins - Addins for RStudio
 #'
-#'
+#' Some Addins for RStudio like conversion from backslashes to
+#' forward slashes or double to single quotes.
 #'
 #'
 #'
