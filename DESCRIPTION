@@ -1,0 +1,12 @@
+Package: raddins
+Type: Package
+Title: Some helper Addins for rstudio
+Version: 0.1.0
+Author: Gunther Krauss
+Maintainer: Gunther Krauss <guntherkrauss@uni-bonn.de>
+Description: Provides some addins for RStudio
+License: GPL3
+Encoding: UTF-8
+Imports: rstudioapi
+LazyData: true
+RoxygenNote: 6.0.1

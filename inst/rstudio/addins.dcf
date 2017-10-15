@@ -1,0 +1,14 @@
+Name: Convert Windows Path
+Description: Converts backslashes to forward slashes in selected text.
+Binding: ConvertWindowsPath
+Interactive: false
+
+Name: To Single Quotes
+Description: Converts double quotes to single quotes in selected text.
+Binding: ToSingleQuotes
+Interactive: false
+
+Name: To Double Quotes
+Description: Converts single quotes to double quotes in selected text.
+Binding: ToDoubleQuotes
+Interactive: false
