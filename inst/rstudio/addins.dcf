@@ -12,3 +12,9 @@ Name: To Double Quotes
 Description: Converts single quotes to double quotes in selected text.
 Binding: ToDoubleQuotes
 Interactive: false
+
+
+Name: RMarkdown columns
+Description: Adds RMarkdown columns, wrapping selected text.
+Binding: addColumns
+Interactive: false
