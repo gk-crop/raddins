@@ -47,3 +47,23 @@ ToDoubleQuotes  <- function()
 {
   replaceSelectedText("'", '"')
 }
+
+
+#' Add Columns to RMarkdown-Presentations
+#'
+#' @param width width of first column
+#' @export
+addColumns <- function(width=50)
+{
+  w2 <- 100-width
+  ec <- rstudioapi::getSourceEditorContext()
+  begin <- paste0('\r\n::::::{.columns}\r\n:::{.column width="',width,'%"}\r\n')
+  end <- paste0('\r\n:::\r\n:::{.column width="',w2,'%"}\r\n:::\r\n::::::\r\n')
+  newtext <- paste0(begin,ec$selection[[1]]$text,end)
+  rstudioapi::modifyRange(
+    ec$selection[[1]]$range,
+    newtext,
+    id=ec$id
+  )
+}
+

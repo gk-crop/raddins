@@ -3,3 +3,4 @@
 export(ConvertWindowsPath)
 export(ToDoubleQuotes)
 export(ToSingleQuotes)
+export(addColumns)
