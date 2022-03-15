@@ -14,3 +14,4 @@ replaceSelectedText(search, replace)
 \description{
 Replaces selected text in actual source editor
 }
+\keyword{internal}

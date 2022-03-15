@@ -12,7 +12,7 @@ NULL
 #'
 #' @param search text to be replaced
 #' @param replace replacement text
-#'
+#' @keywords internal
 replaceSelectedText <- function(search, replace)
 {
   ec <- rstudioapi::getSourceEditorContext()
